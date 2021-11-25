@@ -1,0 +1,64 @@
+!---------------VARIABLES-------------------------------------------------
+ !alt:		inverse dry air density [m³/kg]
+ !CDA:		drag coefficient 
+ !dt:		time step [s]
+ !dz8w:		layer thickness [m]
+ !esat:		saturation water vapor pressure [Pa]
+ !ew:		water vapor pressure [Pa]
+ !fdep:		vertical mass flux to the ground [kg/m²s]
+ !fero:	        vertical mass flux from the ground [kg/m²s] 
+ !ferotemp:	temporal value of fero [kg/m²s] 
+ !fsalt:	vertical mass flux into the saltation layer [kg/m²]
+ !hsalt:	height of the saltation layer [m]
+ !mmean:	mean particle mass [kg]
+ !moist:	num_moist=qv: water vapor mixing ratio [kg/kg]
+ !moistch:	change of water vapor mixing ratio due to snowdrift [kg/kg]
+ !p_phy:	hydrostatic pressure [Pa]
+ !ph:	        temporal value of phis [kg/m³]
+ !phim:	        maximum particle concentration in the saltation layer [kg/m³]
+ !phis:	        particle concentration in the saltation layer [kg/m³]
+ !psis:	        sublimation loss rate snowdrift [-]
+ !rho_dry:	dry air mass density [kg/m³] 
+ !rho_phy:	air density [kg/m³]
+ !rhodrift:	snow density at the ground [kg/m³]
+ !rground:	particle radius at lowest model layer [m]
+ !rmean:	particle radius [m]
+ !setvel:	settling velocity of snow particles [m/s]
+ !sigma:	water vapor deficit with respect to ice [-] 
+ !snicexy:	snow layer ice [mm]
+ !snow:	        snow water equivalent [kg/m²]
+ !snowdepacc:	total deposition due to snowdrift [m]
+ !snoweracc:	total erosion due to snowdrift [m]
+ !snowh:	snow height [m]
+ !snowload:	snow concentration integrated over height [kg/m³] 
+ !snowsubl:	sublimation concentration loss [kg/m3]
+ !swdown:	downward solar radiation [W/m²]
+ !t_phy:	temperature [K]
+ !tempch:	temperature change due to snowdrift [K]
+ !tracer:	num_tracer=snowconc:  snow concentration [kg/m³]
+ !u10,v10:	horizontal 10m-wind speed [m/s]
+ !ustar:	friction velocity [m/s]
+ !ustarcor:	corrected friction velocity [m/s]
+ !uth:		threshold friction velocity [m/s]
+ !wvden:	water vapor density [kg/m³]
+ !wvsden:	saturation water vapor density [kg/m³]
+ !zmid:		topographic height at the middle of the layer [m]
+ !zlow:		topographic height at the lower boundary of layer k [m]
+
+
+
+!---------------CONSTANTS-------------------------------------------------
+ ka = 0.4	!von karman constant ĸ
+ rhoi = 900	!ice density ρice [kg/m³] 
+ nue = 1.2E-5	!kinematic viscosity of air νair [m²/s]   
+ Kt = 0.024	!thermal conductivity of air K [W/mK]
+ Ls = 2.838E6	!latent heat of sublimation Ls [J/kg]
+ Rv = 461.5	!gas constant for water vapor Rv [J/kg K]
+ cp = 1005	!specific heat capacity of dry air cp [J/kg K]
+ D = 2.25E-5	!molecular diffusivity of water vapor in air D [m²/s]
+
+
+
+
+
+
