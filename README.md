@@ -31,7 +31,7 @@ This will set negative concentrations of the snowdrift tracer to zero. If not, n
 
 
 If you want to use the code for an ideal setup without NoahMP as land-surface-model:
-Pleas search in the module_snower.F and module_snowset.F for the variable "snicexy"
+Please search in the module_snower.F and module_snowset.F for the variable "snicexy"
 
 
 Namelist example:
